@@ -39,6 +39,6 @@ pipeline:
                   identifier: Run_Script
                   spec:
                     connectorRef: account.account_level_dockerhub_connector
-                    image: bsah
+                    image: bash
                     shell: Sh
                     command: sh run.sh
